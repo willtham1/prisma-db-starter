@@ -1,4 +1,4 @@
-This is just a toolkit on how to get prisma working with a free db.
+This is just a toolkit on how to get prisma working with a free db. This is what I feel should be known.
 
 Toolkit includes 
 - A built prisma schema that was recommened to be used with every project
