@@ -1,5 +1,5 @@
 {
-  "name": "sql-practice-dev",
+  "name": "prisma-db-mysql-toolkit",
   "version": "0.1.0",
   "private": true,
   "scripts": {

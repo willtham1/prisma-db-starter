@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is just a toolkit on how to get prisma working with a free db.
+
+Toolkit includes 
+- A built prisma schema that was recommened to be used with every project
+- A lib with a db.ts that is for prisma
+
 
 ## Getting Started
 
@@ -13,6 +18,18 @@ pnpm dev
 # or
 bun dev
 ```
+
+# Using Aiven
+[Aiven](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjOw9igne6EAxUVMEQIHRg5DK8QFnoECAgQAQ&url=https%3A%2F%2Faiven.io%2F&usg=AOvVaw0p2cSFbln3OqAYwatr_J6P&opi=89978449)
+```bash
+# After compile
+npx prisma generate
+# Retrieve and connect our database with our .env
+npx prisma db push
+# Runs a easy UI to modify out DB
+npx prisma studio
+```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
