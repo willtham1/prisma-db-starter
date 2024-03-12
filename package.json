@@ -1,5 +1,5 @@
 {
-  "name": "prisma-db-mysql-toolkit",
+  "name": "prisma-db-toolkit",
   "version": "0.1.0",
   "private": true,
   "scripts": {
